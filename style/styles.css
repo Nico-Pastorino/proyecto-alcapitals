@@ -115,3 +115,7 @@ body {
 footer {
     border-radius: 70px 70px 0px 0px;
 }
+
+h6 {
+    font-size: smaller;
+}
