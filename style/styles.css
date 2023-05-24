@@ -105,18 +105,16 @@ body {
 
 .btn-wa {
     
-    width: 60px;
-    height: 60px;
-    background-color: #edc600;
-    color: #343a40;
+    background-color: #343a40;
+    color: #edc600;
     border-radius: 20px;
     
 }
 
 .btn-wa:hover {
 
-    background-color: #343a40;
-    color: #edc600;
+    background-color: #edc600;
+    color: #343a40;
 
 
 }
