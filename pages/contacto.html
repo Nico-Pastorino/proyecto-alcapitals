@@ -43,48 +43,56 @@
     </header>
 
     <!-- MAIN -->
-    <main>
-        <div class="p-3" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+    <main class="mt-5 pt-5">
+        <div class="m-5" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
             <ol class="breadcrumb">
               <li class="breadcrumb-item "><a href="../index.html" class="text-decoration-none c-white btn-gold">Home</a></li>
               <li class="breadcrumb-item c-gold" aria-current="page">Contactanos</li>
             </ol>
         </div> 
-        <h2>Dejanos tu consulta</h2>
-        <form action="/enviar-consulta" method="post">
-            <label for="nombre">Nombre y Apellido:</label>
-            <input type="text" id="nombre" name="nombre" required>
-          
-          
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-          
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono" required>
-          
-            <label for="consulta">Consulta:</label>
-            <textarea id="consulta" name="consulta" rows="4" placeholder="Escriba su consulta aqui ..."></textarea>
-          
-            <button type="submit">Enviar</button>
-        </form>
-        <section>
-            <h3>PARA MAYOR INFORMACION</h3>
-            <div>
-                <img src="" alt="imagen whatsapp">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, repellendus sint? Ab culpa explicabo, quod sit possimus commodi numquam quae dolores iure labore neque distinctio atque sed illo officia incidunt.</p>
-                <a href="">CHATEAR</a>
-            </div>
-            <div>
-                <img src="" alt="imagen soporte">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, repellendus sint? Ab culpa explicabo, quod sit possimus commodi numquam quae dolores iure labore neque distinctio atque sed illo officia incidunt.</p>
-                <a href="">IR A SOPORTE</a>
-            </div>
-            <div>
-                <img src="" alt="imagen faqs">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, repellendus sint? Ab culpa explicabo, quod sit possimus commodi numquam quae dolores iure labore neque distinctio atque sed illo officia incidunt.</p>
-                <a href="">VER MAS</a>
-            </div>
-        </section>
+
+        <div class="container mb-5">
+            <h2 class="c-gold text-center">Dejanos tu consulta</h2>
+            <div class="card w-100 p-4">        
+                <form action="/enviar-consulta" method="post" class="d-flex flex-column c-gold">
+                    <label for="nombre">Nombre y Apellido:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                
+                
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                
+                    <label for="consulta">Consulta:</label>
+                    <textarea id="consulta" name="consulta" rows="4" placeholder="Escriba su consulta aqui ..."></textarea>
+                
+                    <button type="submit" class="btn c-white">Enviar</button>
+                </form>
+            </div>    
+            
+        </div>
+        <h3 class="c-white text-center">PARA MAYOR INFORMACION</h3>    
+        <div class="bg-gold p-2">            
+            <section class="p-4 text-center d-flex justify-content-center flex-column flex-lg-row">            
+                <div>
+                    <img src="" alt="imagen whatsapp">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, repellendus sint?.</p>
+                    <a href="">CHATEAR</a>
+                </div>
+                <div>
+                    <img src="" alt="imagen soporte">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, repellendus sint? </p>
+                    <a href="">IR A SOPORTE</a>
+                </div>
+                <div>
+                    <img src="" alt="imagen faqs">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, repellendus sint?</p>
+                    <a href="">VER MAS</a>
+                </div>
+            </section>
+        </div>    
 
         <!-- Boton Up -->
 

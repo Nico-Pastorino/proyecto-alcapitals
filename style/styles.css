@@ -47,6 +47,16 @@ body {
     height: auto;
 }
 
+.card-btn-ver {
+    background-color: transparent;
+    color: #edc600;
+    border-color: #edc600;
+    border-radius: 5rem;
+    width: 7rem;
+    height: auto;
+    font-size: small;
+}
+
 .card-btn:hover {
     background-color: black;
     color: #edc600;
