@@ -1,0 +1,39 @@
+.card {
+	background-color: transparent;
+	border-color: gray;
+	width: 20rem;
+	border-radius: 5rem;
+	&-btn {
+		background-color: transparent;
+		color: #343a40;
+		border-color: #343a40;
+		border-radius: 5rem;
+		width: 4rem;
+		height: auto;
+		&-ver {
+			background-color: transparent;
+			color: #edc600;
+			border-color: #edc600;
+			border-radius: 5rem;
+			width: 7rem;
+			height: auto;
+			font-size: small;
+		}
+		&:hover {
+			background-color: black;
+			color: #edc600;
+		}
+	}
+	&-text {
+		text-decoration: none;
+	}
+}
+
+.estilo-card {
+	border-color: #edc600;
+	background-color: #1c1f22;
+  }
+  .estilo-card:hover {
+	background-color: transparent;
+	border-color: #343a40;
+ }
